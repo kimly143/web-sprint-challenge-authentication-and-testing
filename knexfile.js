@@ -10,6 +10,7 @@ module.exports = {
     seeds: { directory: './database/seeds' },
   },
 
+// STRETCH seperate test database 
   test: {
     client: 'sqlite3',
     connection: { filename: './database/auth-test.db3' },
